@@ -270,6 +270,12 @@ ng-zorro-antd/table
 
 ng-zorro-antd/tooltip
 
+ngx-page-scroll
+MIT
+
+ngx-page-scroll-core
+MIT
+
 regenerator-runtime
 MIT
 MIT License
