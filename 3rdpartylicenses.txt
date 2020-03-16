@@ -238,6 +238,8 @@ ng-zorro-antd/alert
 
 ng-zorro-antd/button
 
+ng-zorro-antd/card
+
 ng-zorro-antd/checkbox
 
 ng-zorro-antd/drawer
