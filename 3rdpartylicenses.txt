@@ -1,5 +1,3 @@
-ng-zorro-antd-mobile
-
 undefined
 
 @angular-devkit/build-angular
