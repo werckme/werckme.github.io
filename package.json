@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "werckmeisterjs@0.1.5510",
+      "/home/samba/workspace/werckmeister-online/frontend"
+    ]
+  ],
   "_from": "werckmeisterjs@0.1.5510",
   "_id": "werckmeisterjs@0.1.5510",
   "_inBundle": false,
@@ -16,12 +22,10 @@
     "fetchSpec": "0.1.5510"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/werckmeisterjs/-/werckmeisterjs-0.1.5510.tgz",
-  "_shasum": "e92c515f75d2acf1436a2f2d80206767cc3442fc",
-  "_spec": "werckmeisterjs@0.1.5510",
+  "_spec": "0.1.5510",
   "_where": "/home/samba/workspace/werckmeister-online/frontend",
   "author": {
     "name": "Samba Godschynski",
@@ -30,8 +34,6 @@
   "bugs": {
     "url": "https://github.com/werckme/werckmeister/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "a javascript version of werckmeister the sheet music MIDI compiler. Compiled with emscripten.",
   "engines": {
     "node": ">= 0.6.0"
