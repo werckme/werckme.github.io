@@ -248,6 +248,8 @@ ng-zorro-antd/spin
 
 ng-zorro-antd/table
 
+ng-zorro-antd/tag
+
 ng-zorro-antd/tooltip
 
 ngx-page-scroll
