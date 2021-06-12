@@ -1,0 +1,81 @@
+{
+  "_from": "@werckmeister/components@1.1.6-58",
+  "_id": "@werckmeister/components@1.1.6-58",
+  "_inBundle": false,
+  "_integrity": "sha512-9b7biLPrYfZzPlpq3op4k5DGySoUM5R7qrq1YRsRm9n5W1wEDJTWl4DYcz4PIolWFpau1yazWUyBAUW6p/IIuA==",
+  "_location": "/@werckmeister/components",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@werckmeister/components@1.1.6-58",
+    "name": "@werckmeister/components",
+    "escapedName": "@werckmeister%2fcomponents",
+    "scope": "@werckmeister",
+    "rawSpec": "1.1.6-58",
+    "saveSpec": null,
+    "fetchSpec": "1.1.6-58"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@werckmeister/components/-/components-1.1.6-58.tgz",
+  "_shasum": "b9b216e9a94ce12feb6b208cfa8948e38b81567a",
+  "_spec": "@werckmeister/components@1.1.6-58",
+  "_where": "/home/samba/workspace/werckmeister-online/frontend",
+  "author": {
+    "name": "Samba Godschynski"
+  },
+  "bugs": {
+    "url": "https://github.com/werckme/werckmeister-component/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@types/codemirror": "0.0.98",
+    "@types/lodash": "^4.14.164",
+    "@werckmeister/compilerjs": "0.1.59-175",
+    "@werckmeister/midiplayer": "1.0.2-33",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "codemirror": "^5.57.0",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "deprecated": false,
+  "description": "A [web component](https://en.wikipedia.org/wiki/Web_Components) which allows you to embed werckmeister snippets on your website.",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-typescript": "^7.10.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "parcel": "1.12.3",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.5.0",
+    "typescript": "^4.0.2"
+  },
+  "homepage": "https://github.com/werckme/werckmeister-component#readme",
+  "license": "GPL-3.0-or-later",
+  "main": "werckmeister-components.js",
+  "name": "@werckmeister/components",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/werckme/werckmeister-component.git"
+  },
+  "scripts": {
+    "build": "parcel build --no-source-maps src/werckmeister-components.ts",
+    "deploy": "rm -rf dist && npm run build && cp package.json dist && cp README.md dist",
+    "serve-snippet": "parcel --no-source-maps  test-snippet.html editor.css",
+    "serve-workspace": "parcel --no-source-maps test-workspace.html editor.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "staticFiles": {
+    "staticPath": [
+      "./node_modules/@werckmeister/compilerjs",
+      "./node_modules/@werckmeister/midiplayer"
+    ],
+    "watcherGlob": "*.wasm"
+  },
+  "version": "1.1.6-58"
+}
