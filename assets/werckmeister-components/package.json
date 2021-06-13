@@ -1,28 +1,27 @@
 {
-  "_from": "@werckmeister/components@1.1.6-58",
-  "_id": "@werckmeister/components@1.1.6-58",
+  "_from": "@werckmeister/components@1.1.6-59",
+  "_id": "@werckmeister/components@1.1.6-59",
   "_inBundle": false,
-  "_integrity": "sha512-9b7biLPrYfZzPlpq3op4k5DGySoUM5R7qrq1YRsRm9n5W1wEDJTWl4DYcz4PIolWFpau1yazWUyBAUW6p/IIuA==",
+  "_integrity": "sha512-PgMh4wgJD4BJN6MvSUtwfM0EQjUh8ClrGDv/HQDyYhJ/kePR+PBzrNSxlTU5qQO1SaKlMSzC3aiUobiyflEc+A==",
   "_location": "/@werckmeister/components",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "@werckmeister/components@1.1.6-58",
+    "raw": "@werckmeister/components@1.1.6-59",
     "name": "@werckmeister/components",
     "escapedName": "@werckmeister%2fcomponents",
     "scope": "@werckmeister",
-    "rawSpec": "1.1.6-58",
+    "rawSpec": "1.1.6-59",
     "saveSpec": null,
-    "fetchSpec": "1.1.6-58"
+    "fetchSpec": "1.1.6-59"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@werckmeister/components/-/components-1.1.6-58.tgz",
-  "_shasum": "b9b216e9a94ce12feb6b208cfa8948e38b81567a",
-  "_spec": "@werckmeister/components@1.1.6-58",
+  "_resolved": "https://registry.npmjs.org/@werckmeister/components/-/components-1.1.6-59.tgz",
+  "_shasum": "301cf1d67ae8978ca244667c2e6915e0e81fcfca",
+  "_spec": "@werckmeister/components@1.1.6-59",
   "_where": "/home/samba/workspace/werckmeister-online/frontend",
   "author": {
     "name": "Samba Godschynski"
@@ -77,5 +76,5 @@
     ],
     "watcherGlob": "*.wasm"
   },
-  "version": "1.1.6-58"
+  "version": "1.1.6-59"
 }
