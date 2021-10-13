@@ -240,6 +240,8 @@ ng-zorro-antd/popconfirm
 
 ng-zorro-antd/popover
 
+ng-zorro-antd/progress
+
 ng-zorro-antd/radio
 
 ng-zorro-antd/select

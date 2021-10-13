@@ -1,27 +1,27 @@
 {
-  "_from": "@werckmeister/components@1.1.6-81",
-  "_id": "@werckmeister/components@1.1.6-81",
+  "_from": "@werckmeister/components@1.1.6-99",
+  "_id": "@werckmeister/components@1.1.6-99",
   "_inBundle": false,
-  "_integrity": "sha512-mWRR+1PcMPNZ9KeLAm8I4sQqFxAaYWfKRv9y2i7TPZ7zdEHjD447XfOz7sQEXewLKtDpiuGTukn1odVJ27LCag==",
+  "_integrity": "sha512-CxXMEWIWZQuVRcxKJMq+EXXsV+hxCtW9DguwI7LzJVzJUtoEz8XfrZw3enJUmg26YWGvD5Ty9A6+UVEKmc5pNw==",
   "_location": "/@werckmeister/components",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "@werckmeister/components@1.1.6-81",
+    "raw": "@werckmeister/components@1.1.6-99",
     "name": "@werckmeister/components",
     "escapedName": "@werckmeister%2fcomponents",
     "scope": "@werckmeister",
-    "rawSpec": "1.1.6-81",
+    "rawSpec": "1.1.6-99",
     "saveSpec": null,
-    "fetchSpec": "1.1.6-81"
+    "fetchSpec": "1.1.6-99"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@werckmeister/components/-/components-1.1.6-81.tgz",
-  "_shasum": "2f08ca3a1815d136c66c9b95f1a1a0842e3225c5",
-  "_spec": "@werckmeister/components@1.1.6-81",
+  "_resolved": "https://registry.npmjs.org/@werckmeister/components/-/components-1.1.6-99.tgz",
+  "_shasum": "82c512986ffcd0c80809bbbccdc7df0fd386038a",
+  "_spec": "@werckmeister/components@1.1.6-99",
   "_where": "/home/samba/workspace/werckmeister-online/frontend",
   "author": {
     "name": "Samba Godschynski"
@@ -33,9 +33,9 @@
   "dependencies": {
     "@types/codemirror": "0.0.98",
     "@types/lodash": "^4.14.164",
-    "@werckmeister/compilerjs": "0.1.59-227",
-    "@werckmeister/language-features": "1.0.0-33",
-    "@werckmeister/midiplayer": "1.0.2-33",
+    "@werckmeister/compilerjs": "0.1.60-301",
+    "@werckmeister/language-features": "1.0.0-35",
+    "@werckmeister/midiplayer": "1.0.2-35",
     "babel-core": "^6.26.3",
     "babel-polyfill": "^6.26.0",
     "codemirror": "^5.57.0",
@@ -77,5 +77,5 @@
     ],
     "watcherGlob": "*.wasm"
   },
-  "version": "1.1.6-81"
+  "version": "1.1.6-99"
 }

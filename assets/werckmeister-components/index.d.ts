@@ -6,6 +6,14 @@ export declare enum PlayerState {
     Playing = 2,
     Stopping = 3
 }
+export interface Task {
+    id: string;
+    name: string;
+}
+export interface TaskVisitor {
+    newTasks(tasks: Task[]): any;
+    done(task: Task): any;
+}
 export declare class WerckmeisterMidiPlayer {
     private static instaces;
     private instanceId;
@@ -24,7 +32,6 @@ export declare class WerckmeisterMidiPlayer {
     private soundFontHash;
     private repoUrl;
     private audioNodes;
-    private playblackNode;
     rendererBufferSeconds: number;
     gain: number;
     constructor();
@@ -38,7 +45,8 @@ export declare class WerckmeisterMidiPlayer {
     private instrumentHash;
     private instrumentsHash;
     private getSoundfont;
-    load(base64Data: string): Promise<void>;
+    private currentTaskVisitor;
+    load(base64MidiFileData: string, taskVisitor?: TaskVisitor | undefined): Promise<void>;
     private sleepAsync;
     play(): Promise<void>;
     stop(): void;
