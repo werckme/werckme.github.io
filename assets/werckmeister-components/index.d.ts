@@ -39,7 +39,7 @@ export declare class WerckmeisterMidiPlayer {
     private getSfRepository;
     get playerState(): PlayerState;
     set playerState(newState: PlayerState);
-    initAudioEnvironment(event: Event): void;
+    initAudioEnvironment(event: Event): Promise<void>;
     private convertEvent;
     private preprocessEvents;
     private instrumentHash;
