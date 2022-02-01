@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "@werckmeister/components@1.1.6-118",
+      "/home/samba/workspace/werckmeister-online/frontend"
+    ]
+  ],
   "_from": "@werckmeister/components@1.1.6-118",
   "_id": "@werckmeister/components@1.1.6-118",
   "_inBundle": false,
@@ -20,8 +26,7 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@werckmeister/components/-/components-1.1.6-118.tgz",
-  "_shasum": "e4d942c4178130999a3a7e6ffbb3c5c6e0542e92",
-  "_spec": "@werckmeister/components@1.1.6-118",
+  "_spec": "1.1.6-118",
   "_where": "/home/samba/workspace/werckmeister-online/frontend",
   "author": {
     "name": "Samba Godschynski"
@@ -29,7 +34,6 @@
   "bugs": {
     "url": "https://github.com/werckme/werckmeister-component/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "@types/codemirror": "0.0.98",
     "@types/lodash": "^4.14.164",
@@ -43,7 +47,6 @@
     "lodash": "^4.17.20",
     "xmlhttprequest": "^1.8.0"
   },
-  "deprecated": false,
   "description": "A [web component](https://en.wikipedia.org/wiki/Web_Components) which allows you to embed werckmeister snippets on your website.",
   "devDependencies": {
     "@babel/core": "^7.11.6",
