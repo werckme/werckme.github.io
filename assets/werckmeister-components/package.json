@@ -1,27 +1,27 @@
 {
-  "_from": "@werckmeister/components@1.1.6-120",
-  "_id": "@werckmeister/components@1.1.6-120",
+  "_from": "@werckmeister/components@1.1.6-118",
+  "_id": "@werckmeister/components@1.1.6-118",
   "_inBundle": false,
-  "_integrity": "sha512-AiLOzSD17Mj6T48k4ArVF8UyNNjnSt/yEg0jQFIsR2RD2D0s/kKrdjheUvjMFkBizW7x/FmZPUIpMdpkJtmWgg==",
+  "_integrity": "sha512-2wEMD9SGLxF9pPjQDi6zyWj/rliviMlEaJuXRDenfwHkkOGuR2Eob+g9A/gqfE6osC6nDSoq3DNlTuPMg7XT2Q==",
   "_location": "/@werckmeister/components",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "@werckmeister/components@1.1.6-120",
+    "raw": "@werckmeister/components@1.1.6-118",
     "name": "@werckmeister/components",
     "escapedName": "@werckmeister%2fcomponents",
     "scope": "@werckmeister",
-    "rawSpec": "1.1.6-120",
+    "rawSpec": "1.1.6-118",
     "saveSpec": null,
-    "fetchSpec": "1.1.6-120"
+    "fetchSpec": "1.1.6-118"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@werckmeister/components/-/components-1.1.6-120.tgz",
-  "_shasum": "cc9f0e5bc1e9d9ffecaa815a7498df3a3d7bd856",
-  "_spec": "@werckmeister/components@1.1.6-120",
+  "_resolved": "https://registry.npmjs.org/@werckmeister/components/-/components-1.1.6-118.tgz",
+  "_shasum": "e4d942c4178130999a3a7e6ffbb3c5c6e0542e92",
+  "_spec": "@werckmeister/components@1.1.6-118",
   "_where": "/home/samba/workspace/werckmeister-online/frontend",
   "author": {
     "name": "Samba Godschynski"
@@ -33,8 +33,8 @@
   "dependencies": {
     "@types/codemirror": "0.0.98",
     "@types/lodash": "^4.14.164",
-    "@werckmeister/compilerjs": "1.0.3-440",
-    "@werckmeister/language-features": "1.0.0-53",
+    "@werckmeister/compilerjs": "1.0.2-397",
+    "@werckmeister/language-features": "1.0.0-41",
     "@werckmeister/midiplayer": "1.0.2-37",
     "babel-core": "^6.26.3",
     "babel-polyfill": "^6.26.0",
@@ -77,5 +77,5 @@
     ],
     "watcherGlob": "*.wasm"
   },
-  "version": "1.1.6-120"
+  "version": "1.1.6-118"
 }
