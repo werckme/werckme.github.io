@@ -13,6 +13,7 @@ export interface Task {
 export interface TaskVisitor {
     newTasks(tasks: Task[]): any;
     done(task: Task): any;
+    message?(text: string, title?: string): any;
 }
 export declare class WerckmeisterMidiPlayer {
     private static instaces;
@@ -30,7 +31,7 @@ export declare class WerckmeisterMidiPlayer {
     private midiBuffer;
     soundFont: ISoundFont;
     private soundFontHash;
-    private repoUrl;
+    repoUrl: string;
     private audioNodes;
     rendererBufferSeconds: number;
     gain: number;
@@ -47,7 +48,6 @@ export declare class WerckmeisterMidiPlayer {
     private getSoundfont;
     private currentTaskVisitor;
     load(base64MidiFileData: string, taskVisitor?: TaskVisitor | undefined): Promise<void>;
-    private sleepAsync;
     play(): Promise<void>;
     stop(): void;
     private postWebworker;
