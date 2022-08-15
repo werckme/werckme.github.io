@@ -1,27 +1,27 @@
 {
-  "_from": "@werckmeister/components@1.1.6-137",
-  "_id": "@werckmeister/components@1.1.6-137",
+  "_from": "@werckmeister/components@1.1.6-138",
+  "_id": "@werckmeister/components@1.1.6-138",
   "_inBundle": false,
-  "_integrity": "sha512-hivdvTkqMeJgC9u9U/zgXEy50CNkZ/Huh3ac6HA9vbyJ7/KRRB+TFm/e57zmTu7cqSsGNfE3NJcJcB50k+6niw==",
+  "_integrity": "sha512-na3cVnoMn4XxPPqgpXpewuj2ggbc1vghLZiu8MR7E7KH8vz4wGBT19GQ8KpWqzVYWv09RYHcIayBQcSvG1YfLA==",
   "_location": "/@werckmeister/components",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "@werckmeister/components@1.1.6-137",
+    "raw": "@werckmeister/components@1.1.6-138",
     "name": "@werckmeister/components",
     "escapedName": "@werckmeister%2fcomponents",
     "scope": "@werckmeister",
-    "rawSpec": "1.1.6-137",
+    "rawSpec": "1.1.6-138",
     "saveSpec": null,
-    "fetchSpec": "1.1.6-137"
+    "fetchSpec": "1.1.6-138"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@werckmeister/components/-/components-1.1.6-137.tgz",
-  "_shasum": "c7ff7f54ff3d36aa1dcc9bdd03675aa63d21ad0a",
-  "_spec": "@werckmeister/components@1.1.6-137",
+  "_resolved": "https://registry.npmjs.org/@werckmeister/components/-/components-1.1.6-138.tgz",
+  "_shasum": "d4b8490887969e11a1baa186434f5c6fb53c225b",
+  "_spec": "@werckmeister/components@1.1.6-138",
   "_where": "/home/samba/workspace/werckmeister-online/frontend",
   "author": {
     "name": "Samba Godschynski"
@@ -33,7 +33,7 @@
   "dependencies": {
     "@types/codemirror": "0.0.98",
     "@types/lodash": "^4.14.164",
-    "@werckmeister/compilerjs": "1.1.0-556",
+    "@werckmeister/compilerjs": "1.1.0-558",
     "@werckmeister/language-features": "1.0.0-59",
     "@werckmeister/midiplayer": "1.0.2-42",
     "babel-core": "^6.26.3",
@@ -77,5 +77,5 @@
     ],
     "watcherGlob": "*.wasm"
   },
-  "version": "1.1.6-137"
+  "version": "1.1.6-138"
 }
