@@ -37,6 +37,7 @@ export declare class WerckmeisterMidiPlayer {
     gain: number;
     constructor();
     get ppq(): number;
+    hasEvents(): boolean;
     private getSfRepository;
     get playerState(): PlayerState;
     set playerState(newState: PlayerState);
