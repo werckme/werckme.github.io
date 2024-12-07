@@ -1,27 +1,27 @@
 {
-  "_from": "@werckmeister/components@1.1.6-158",
-  "_id": "@werckmeister/components@1.1.6-158",
+  "_from": "@werckmeister/components@1.1.6-160",
+  "_id": "@werckmeister/components@1.1.6-160",
   "_inBundle": false,
-  "_integrity": "sha512-YvyXbvhbPfeEJHwJ4oPSdmkuD36vJEbCDi+FZh1r/81jWD6+N73ySj5JVasaeQIhKKNUjF3WBeWy03yApe35rA==",
+  "_integrity": "sha512-tbeC87pfXdQngDLevWKTZwrBqOS8kjclh4LTQFucuyTYaIlvlq9oKEXeCAsL1vjtbMQhgJ6jm51vWZhuaYvQAw==",
   "_location": "/@werckmeister/components",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "@werckmeister/components@1.1.6-158",
+    "raw": "@werckmeister/components@1.1.6-160",
     "name": "@werckmeister/components",
     "escapedName": "@werckmeister%2fcomponents",
     "scope": "@werckmeister",
-    "rawSpec": "1.1.6-158",
+    "rawSpec": "1.1.6-160",
     "saveSpec": null,
-    "fetchSpec": "1.1.6-158"
+    "fetchSpec": "1.1.6-160"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@werckmeister/components/-/components-1.1.6-158.tgz",
-  "_shasum": "f503796ce44c721dc788fb720399c536f393a503",
-  "_spec": "@werckmeister/components@1.1.6-158",
+  "_resolved": "https://registry.npmjs.org/@werckmeister/components/-/components-1.1.6-160.tgz",
+  "_shasum": "8b918e383c518781ed9f97b462287a2d0ece9e88",
+  "_spec": "@werckmeister/components@1.1.6-160",
   "_where": "/home/samba/workspace/werckmeister-online/frontend",
   "author": {
     "name": "Samba Godschynski"
@@ -33,8 +33,8 @@
   "dependencies": {
     "@types/codemirror": "0.0.98",
     "@types/lodash": "^4.14.164",
-    "@werckmeister/compilerjs": "1.4.3-754",
-    "@werckmeister/language-features": "1.0.0-73",
+    "@werckmeister/compilerjs": "1.4.4-843",
+    "@werckmeister/language-features": "1.0.0-76",
     "@werckmeister/midiplayer": "1.0.2-43",
     "babel-core": "^6.26.3",
     "babel-polyfill": "^6.26.0",
@@ -77,5 +77,5 @@
     ],
     "watcherGlob": "*.wasm"
   },
-  "version": "1.1.6-158"
+  "version": "1.1.6-160"
 }
